@@ -21,4 +21,4 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: Send greeting
-      run: echo "Hello ${{ env.DEMO_ENV }}"
+      run: echo "Hello ${{ env.ENV_NAME }}"
